@@ -1,0 +1,59 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: georgia;
+}
+#one
+{
+	border: 2px solid;
+	width: 33.33%;
+	float: left;
+}
+#two
+{
+	border: 2px solid;
+	width: 33.33%;
+	float: left;
+}
+#three
+{
+	border: 2px solid;
+	width: 33.33%;
+	float: left;
+}
+#life-text
+{
+	display: block;
+}
+#peace-text
+{
+	display: none;
+}
+#finance-text
+{
+	display: none;
+}
+.quote
+{
+	width: 90%;
+	margin-left: 5%;
+	font-size: 3.5vh;
+	padding: 7px;
+	font-weight: bolder;
+	text-align: center;
+}
+#img-content
+{
+	width:50%;
+	height:auto;
+	margin: 10px;
+	border-radius: 10px;
+	border: 4px double black;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}

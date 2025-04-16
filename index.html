@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title></title>
+</head>
+<body>
+	<div style="overflow: auto;text-align: center;font-size: 5vw;">QUOTES-BOOK</div>
+	<div style="overflow: auto;text-align: center;font-size: 4vh;">
+	<div id="one" onclick="one()"><a href="#">LIFE</a></div>
+	<div id="two" onclick="two()"><a href="#">PEACE</a></div>
+	<div id="three" onclick="three()"><a href="#">FINANCE</a></div>
+	</div>
+
+	<div id="life-text">
+		<div class="quote">"Do not go where the path may lead, go instead where there is no path and leave a trail."
+— Ralph Waldo Emerson</div>
+		<div class="quote">"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate... to have it make some difference that you have lived and lived well."
+— Ralph Waldo Emerson</div>
+		<div class="quote">"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate... to have it make some difference that you have lived and lived well."
+— Ralph Waldo Emerson</div>
+		<div class="quote">"We are all stories in the end. Just make it a good one."
+— Steven Moffat</div>
+		<div class="quote">"Life is really simple, but we insist on making it complicated."
+— Confucius</div>
+		<div style="text-align: center;"><img id="img-content" src="images/l1.png" ></div>
+
+	</div>
+
+
+
+	<div id="peace-text">
+<div class="quote">"If we have no peace, it is because we have forgotten that we belong to each other." — Mother Teresa</div>
+		<div class="quote">"Peace comes from within. Do not seek it without." — Buddha
+
+</div>
+		<div class="quote">"The life of inner peace, being harmonious and without stress, is the easiest type of existence." — Norman Vincent Peale</div>
+		<div class="quote">"To forgive is the highest, most beautiful form of love. In return, you will receive untold peace and happiness." — Robert Muller</div>
+		<div class="quote">"Peace doesn't require two people; it only requires one. It has to be you." — Byron Katie
+</div>
+		<div style="text-align: center;"><img id="img-content" src="images/p1.png" ></div>
+
+	</div>
+
+		
+
+	<div id="finance-text">
+
+<div class="quote">"It’s not your salary that makes you rich, it’s your spending habits." — Charles A. Jaffe</div>
+		<div class="quote">"Do not save what is left after spending, but spend what is left after saving." — Warren Buffett
+
+</div>
+		<div class="quote">"You must gain control over your money or the lack of it will forever control you." — Dave Ramsey</div>
+		<div class="quote">"Save money, and money will save you." — Unknown</div>
+		<div class="quote">"He who buys what he does not need, steals from himself." — Swedish Proverb</div>
+		<div style="text-align: center;"><img id="img-content" src="images/f1.png" ></div>
+	</div>
+	<script type="text/javascript">
+		function one() 
+		{
+    		document.getElementById('life-text').style.display = 'block';
+    		document.getElementById('peace-text').style.display = 'none';
+    		document.getElementById('finance-text').style.display = 'none';
+		}
+		function two() 
+		{
+    		document.getElementById('life-text').style.display = 'none';
+    		document.getElementById('peace-text').style.display = 'block';
+    		document.getElementById('finance-text').style.display = 'none';
+		}
+		function three() 
+		{
+    		document.getElementById('life-text').style.display = 'none';
+    		document.getElementById('peace-text').style.display = 'none';
+    		document.getElementById('finance-text').style.display = 'block';
+		}
+	</script>
+</body>
+</html>
