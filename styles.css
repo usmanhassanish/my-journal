@@ -7,24 +7,26 @@
 }
 #one
 {
-	border: 2px solid;
+	border: 2px dashed #febebb;
 	width: 34%;
 	float: left;
-	color: #ffce35;
+	color: #3b55d9;
 }
 #two
 {
-	border: 2px solid;
+	border: 2px solid; #ffce35;
 	width: 32%;
+	border-left: none;
+	border-right: none;
 	float: left;
-	color: #ffce35;
+	color: #3b55d9;
 }
 #three
 {
-	border: 2px solid;
+	border: 2px dashed #febebb;
 	width: 34%;
 	float: left;
-	color: #ffce35;
+	color: #3b55d9;
 }
 #life-text
 {
@@ -60,5 +62,4 @@
 a
 {
 	text-decoration: none;
-	color: black;
 }
