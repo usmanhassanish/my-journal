@@ -10,30 +10,36 @@
 	border: 2px solid;
 	width: 34%;
 	float: left;
+	color: #ffce35;
 }
 #two
 {
 	border: 2px solid;
 	width: 32%;
 	float: left;
+	color: #ffce35;
 }
 #three
 {
 	border: 2px solid;
 	width: 34%;
 	float: left;
+	color: #ffce35;
 }
 #life-text
 {
 	display: block;
+	color: #3b55d9;
 }
 #peace-text
 {
 	display: none;
+	color: #3b55d9;
 }
 #finance-text
 {
 	display: none;
+	color: #3b55d9;
 }
 .quote
 {
